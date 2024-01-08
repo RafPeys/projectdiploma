@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/projectdiploma/static/css/main.ee1108ed.css",
+    "main.js": "/projectdiploma/static/js/main.a2451bbe.js",
+    "static/media/hero.png": "/projectdiploma/static/media/hero.824e4b368ece1254351a.png",
+    "static/media/error.jpg": "/projectdiploma/static/media/error.b15db41e8ff13748852d.jpg",
+    "static/media/gnome.png": "/projectdiploma/static/media/gnome.c036eea09188ab215dcb.png",
+    "static/media/logo.svg": "/projectdiploma/static/media/logo.65921f00b7d8c6031f4b314c1c65a4e4.svg",
+    "static/media/shopping-cart.png": "/projectdiploma/static/media/shopping-cart.7033f67421d5e63955d5.png",
+    "index.html": "/projectdiploma/index.html",
+    "main.ee1108ed.css.map": "/projectdiploma/static/css/main.ee1108ed.css.map",
+    "main.a2451bbe.js.map": "/projectdiploma/static/js/main.a2451bbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee1108ed.css",
+    "static/js/main.a2451bbe.js"
+  ]
+}
