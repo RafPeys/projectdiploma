@@ -15,51 +15,52 @@ import SingleItemPage from 'pages/SingleItemPage/SingleItemPage';
 import ItemsFromCategoryPage from 'pages/ItemsFromCategoryPage/ItemsFromCategoryPage';
 import { store, persistor } from 'redux/store';
 import { Provider } from 'react-redux';
-import { PersistGate } from 'redux-persist/integration/react'
+import { PersistGate } from 'redux-persist/integration/react';
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />,
-    errorElement: <ErrorVievPage />,
-    children: [
-      {
-        path: '/',
-        element: <HomePage />,
-      },
-      {
-        path: '/category',
-        element: <CatalogPage />,
-      },
-      {
-        path: '/cart',
-        element: <CartPage />,
-      },
-      {
-        path: '/sales',
-        element: <SalesPage />,
-      },
-      {
-        path: '/products',
-        element: <AllItemsPage />,
-      },
-      {
-        path: '/products/:id',
-        element: <SingleItemPage />,
-      },
-      {
-        path: '/category/:id',
-        element: <ItemsFromCategoryPage />,
-      },
-      {
-        path: '/*',
-        element: <ErrorVievPage />,
-      },
-
-    ],
-  }
-],
-  { basename: "/greenshop" })
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <App />,
+      errorElement: <ErrorVievPage />,
+      children: [
+        {
+          path: '/',
+          element: <HomePage />,
+        },
+        {
+          path: '/category',
+          element: <CatalogPage />,
+        },
+        {
+          path: '/cart',
+          element: <CartPage />,
+        },
+        {
+          path: '/sales',
+          element: <SalesPage />,
+        },
+        {
+          path: '/products',
+          element: <AllItemsPage />,
+        },
+        {
+          path: '/products/:id',
+          element: <SingleItemPage />,
+        },
+        {
+          path: '/category/:id',
+          element: <ItemsFromCategoryPage />,
+        },
+        {
+          path: '/*',
+          element: <ErrorVievPage />,
+        },
+      ],
+    },
+  ],
+  { basename: '/projectdiploma' }
+);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

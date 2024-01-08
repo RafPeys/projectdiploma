@@ -1,8 +1,8 @@
 {
-  "name": "greenshop",
+  "name": "projectdiploma",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ani-k-a.github.io/greenshop/",
+  "homepage": "https://rafpeys.github.io/projectdiploma/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.3",
